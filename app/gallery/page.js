@@ -29,7 +29,7 @@ const Gallery = () => {
       {/* <img src={sculpture.url} alt={sculpture.alt} /> */}
       <Image src={sculpture.url} alt={sculpture.alt} width={400} height={200} />
       <p>{sculpture.description}</p>
-      <Link href={`/gallery/${sculptureList.id}`}> Go to Item</Link>
+      <Link href={`/gallery/${sculpture.id}`}> Go to Item</Link>
     </div>
   );
 };
